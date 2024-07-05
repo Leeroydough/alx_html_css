@@ -1,0 +1,107 @@
+/* styles.css */
+
+/* Flexbox container for the entire body */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Flexbox container for the main content area */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+/* Ensure the main content area takes up the remaining space */
+main {
+    flex: 1;
+}
+
+/* Ensure article takes 2/3 of the width */
+article {
+    flex: 2;
+    overflow-y: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Ensure aside takes 1/3 of the width */
+aside {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Basic styling for header, nav, and footer */
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Additional custom styles */
+header {
+    background-color: #444;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main h2 {
+    color: #333;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+article a {
+    color: #0066cc;
+}
+
+article a:hover {
+    color: #004080;
+    text-decoration: underline;
+}
+
+footer a {
+    color: #00cc66;
+}
+
+footer a:hover {
+    color: #008040;
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 0.9em;
+}
