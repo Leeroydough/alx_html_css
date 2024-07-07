@@ -67,6 +67,53 @@ footer p {
     margin: 0;
 }
 
+/* Videos section styling */
+.videos-section {
+    margin: 50px auto; /* Center the section and add margin */
+    max-width: 800px; /* Limit the width of the section */
+    text-align: center; /* Center-align content */
+}
+
+.videos-section h2 {
+    color: #0073e6; /* Adjust the heading color */
+    margin-bottom: 20px; /* Add margin below the heading */
+}
+
+.videos-section .videos-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    display: grid; /* Use grid layout for videos */
+    gap: 20px; /* Gap between grid items */
+    justify-content: center; /* Center items horizontally */
+}
+
+.videos-section .videos-list li {
+    background-color: #f5f5f5; /* Background color for video items */
+    padding: 20px; /* Padding around each video item */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.videos-section .videos-list li img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+.videos-section .videos-list li .video-info {
+    margin-top: 10px; /* Margin above video information */
+}
+
+.videos-section .videos-list li h3 {
+    color: #333; /* Color for video title */
+    font-size: 1.2em; /* Font size for video title */
+}
+
+.videos-section .videos-list li p {
+    color: #666; /* Color for video description */
+    font-size: 1em; /* Font size for video description */
+}
+
+
 /* Responsive styles */
 @media (max-width: 600px) {
     .header, .main, .footer {
