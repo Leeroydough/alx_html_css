@@ -1,1 +1,38 @@
+/* Copy styles from 0-styles.css */
+/* Ensure you have the font icons referenced properly */
+
+/* What we do section styles */
+.services {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+    color: #0073e6;
+    margin-bottom: 30px;
+}
+
+.service {
+    margin-bottom: 40px;
+}
+
+.service .icon {
+    font-family: 'Holberton-School-Icon';
+    font-size: 3rem;
+    color: #0073e6;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+}
 
