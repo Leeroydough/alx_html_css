@@ -113,6 +113,51 @@ footer p {
     font-size: 1em; /* Font size for video description */
 }
 
+/* Membership section styling */
+.membership-section {
+    margin: 50px auto; /* Center the section and add margin */
+    max-width: 800px; /* Limit the width of the section */
+    text-align: center; /* Center-align content */
+}
+
+.membership-section h2 {
+    color: #0073e6; /* Adjust the heading color */
+    margin-bottom: 20px; /* Add margin below the heading */
+}
+
+.membership-section .membership-plans {
+    display: flex; /* Use flexbox layout for plans */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Gap between plan items */
+}
+
+.membership-section .membership-plan {
+    background-color: #f5f5f5; /* Background color for plan */
+    padding: 20px; /* Padding around each plan */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    flex: 1; /* Equal width for all plans */
+    max-width: 300px; /* Limit width of each plan */
+}
+
+.membership-section .membership-plan h3 {
+    color: #333; /* Color for plan title */
+    font-size: 1.5em; /* Font size for plan title */
+    margin-bottom: 10px; /* Margin below plan title */
+}
+
+.membership-section .membership-plan p {
+    color: #666; /* Color for plan description */
+    font-size: 1em; /* Font size for plan description */
+}
+
+.membership-section .membership-plan .price {
+    color: #0073e6; /* Color for plan price */
+    font-size: 1.2em; /* Font size for plan price */
+    font-weight: bold; /* Bold font weight for emphasis */
+    display: block; /* Display price as block element */
+    margin-top: 10px; /* Margin above the price */
+}
 
 /* Responsive styles */
 @media (max-width: 600px) {
