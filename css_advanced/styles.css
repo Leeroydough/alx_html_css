@@ -221,6 +221,19 @@ article h2 {
     color: #0073e6;
 }
 
+/* Footer section styling */
+.site-footer {
+    background-color: #0073e6; /* Background color for footer */
+    color: #fff; /* Text color for footer */
+    text-align: center; /* Center-align content */
+    padding: 20px 0; /* Padding top and bottom */
+}
+
+.site-footer p {
+    margin: 0; /* Remove default margin for paragraph */
+}
+
+
 article p {
     color: #333;
     font-size: 1.1em;
