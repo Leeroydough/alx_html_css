@@ -18,3 +18,13 @@ The design includes:
 ## Instructions
 To view this project:
 1. Clone the repository:
+2. Open `index.html` in your web browser to view the website.
+
+## Screenshots
+![Website Screenshot](screenshots/website-screenshot.png)
+![Figma Design](screenshots/figma-design.png)
+
+## Additional Notes
+- Ensure you have access to Source Sans Pro and Spin Cycle OT fonts for consistent typography.
+- Adjust media queries in `styles.css` to maintain responsiveness across different devices.
+
