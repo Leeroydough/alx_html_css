@@ -33,6 +33,27 @@ header, main, footer {
     font-size: 1.2em;
 }
 
+/* Quote section styling */
+.quote-section {
+    margin: 50px auto; /* Center the section and add margin */
+    max-width: 600px; /* Limit the width of the section */
+    text-align: center; /* Center-align content */
+}
+
+.quote-section blockquote {
+    font-style: italic; 
+    font-size: 1.5em;
+    color: #333;
+    margin: 20px 0; 
+}
+
+.quote-section cite {
+    display: block; 
+    font-size: 1.2em; 
+    color: #666; 
+    margin-top: 10px; 
+}
+
 .logo {
     font-size: 2em;
     color: #0073e6;
